@@ -1,0 +1,15 @@
+{
+  "name": "david-portfolio",
+  "version": "1.0.0",
+  "description": "package management for personal porfolio project",
+  "main": "all.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Tsai",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "jquery": "^3.6.4"
+  }
+}
