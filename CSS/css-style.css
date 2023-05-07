@@ -71,6 +71,7 @@ table {
 
 .logo {
   margin-left: 3%;
+  z-index: 60;
 }
 .logo h2 a {
   background: url("/img/logo-image.png") no-repeat 90%;
