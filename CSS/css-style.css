@@ -114,7 +114,7 @@ table {
   color: #fff;
 }
 
-@media (max-width: 569px) {
+@media (max-width: 414px) {
   .menu {
     display: none;
   }
@@ -140,6 +140,11 @@ table {
   font-size: 80px;
 }
 
+@media (max-width: 414px) {
+  .main-title-content {
+    padding-top: 70%;
+  }
+}
 .mouse-icon {
   position: absolute;
   top: 80%;
@@ -213,6 +218,11 @@ table {
     opacity: 0;
   }
 }
+@media (max-width: 414px) {
+  .mouse-icon {
+    right: 47%;
+  }
+}
 .about-container {
   background: white;
   display: flex;
@@ -249,7 +259,7 @@ table {
   color: black;
 }
 
-@media (max-width: 569px) {
+@media (max-width: 414px) {
   .about-content {
     width: 80%;
   }
@@ -348,20 +358,23 @@ table {
 }
 .experiences-content h3 {
   font-size: 25px;
+  font-weight: bold;
+  margin-top: 2%;
 }
 
-@media (max-width: 569px) {
+@media (max-width: 414px) {
   .experiences-content {
     width: 90%;
+    flex-flow: column;
   }
   .experiences-content h3 {
-    font-size: 20px;
+    font-size: 30px;
   }
   .experiences-content p {
-    font-size: 10px;
+    font-size: 20px;
   }
   .experiences-content li {
-    font-size: 13px;
+    font-size: 20px;
   }
 }
 .skills-container {
@@ -420,19 +433,22 @@ table {
   padding-bottom: 10%;
 }
 
-@media (max-width: 569px) {
+@media (max-width: 414px) {
   .skills-html-css-javascript img {
     margin-top: 30%;
   }
   .skills-plus {
+    font-size: 150px;
     font-weight: normal;
   }
   .skills-vue img {
     margin-top: 30%;
   }
   .skills-content-text {
+    width: 78%;
+    margin: 0 auto;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 2;
   }
 }
 .works-container {
@@ -471,6 +487,11 @@ table {
   width: 100%;
 }
 
+@media (max-width: 414px) {
+  .works-container {
+    height: 50vh;
+  }
+}
 .box {
   overflow: hidden;
   position: relative;
@@ -579,7 +600,7 @@ table {
   margin-top: 1%;
 }
 
-@media (max-width: 569px) {
+@media (max-width: 414px) {
   .modal-content-text {
     font-size: 13px;
     line-height: 1.5;
@@ -636,6 +657,11 @@ table {
   color: lightblue;
 }
 
+@media (max-width: 414px) {
+  .my-info-container {
+    padding-top: 50%;
+  }
+}
 .scroll-top {
   width: 40px;
   height: 40px;

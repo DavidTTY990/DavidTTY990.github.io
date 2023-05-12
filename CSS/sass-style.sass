@@ -103,7 +103,7 @@ table
   background-color: rgba(0, 0, 0, 0.9)
   color: #fff
 
-@media (max-width: 569px)
+@media (max-width: 414px)
   .menu
     display: none
 
@@ -124,6 +124,10 @@ table
 
   h1
     font-size: 80px
+
+@media (max-width: 414px)
+  .main-title-content
+    padding-top: 70% 
 
 //.hero-img
     filter: grayscale(90%) blur(1px)
@@ -198,6 +202,10 @@ table
     opacity: 0
 // mouse-icon end
 
+@media (max-width: 414px)
+  .mouse-icon
+    right: 47%
+
 .about-container
   background: white
   display: flex
@@ -231,7 +239,7 @@ table
     font-weight: bold
     color: black
 
-@media (max-width: 569px)
+@media (max-width: 414px)
   .about-content
     width: 80%
     p
@@ -316,17 +324,20 @@ table
 
   h3
     font-size: 25px
+    font-weight: bold
+    margin-top: 2%
 
-@media (max-width: 569px)
+@media (max-width: 414px)
   .experiences-content
     width: 90%
+    flex-flow: column
 
     h3
-      font-size: 20px
+      font-size: 30px
     p
-      font-size: 10px
+      font-size: 20px
     li
-      font-size: 13px
+      font-size: 20px
 
 .skills-container
   background-color: #2F4F4F
@@ -376,19 +387,22 @@ table
   margin: 5%
   padding-bottom: 10%
 
-@media (max-width: 569px)
+@media (max-width: 414px)
   .skills-html-css-javascript img
     margin-top: 30%
 
   .skills-plus
+    font-size: 150px
     font-weight: normal
 
   .skills-vue img
     margin-top: 30%
 
   .skills-content-text
+    width: 78%
+    margin: 0 auto
     font-size: 15px
-    line-height: 1.5
+    line-height: 2
 
 .works-container
   width: 100%
@@ -420,6 +434,10 @@ table
   margin-top: 2%
   img
     width: 100%
+
+@media (max-width:414px)
+  .works-container
+    height: 50vh  
 
 .box
   overflow: hidden
@@ -512,7 +530,7 @@ table
   img
     margin-top: 1%
 
-@media (max-width: 569px)
+@media (max-width: 414px)
   .modal-content-text
     font-size: 13px
     line-height: 1.5
@@ -560,6 +578,10 @@ table
 
   :hover
     color: lightblue
+
+@media (max-width: 414px)
+  .my-info-container
+    padding-top: 50%
 
 // scrollUp-button  
 .scroll-top

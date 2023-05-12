@@ -19,6 +19,11 @@ $(function () {
     // $('html, body').scrollTop(0);
     $("html, body").animate({ scrollTop: 0 }, 1500);
   });
+
+  $(document).ready(function() {
+    $(".scroll-top").hide(0);
+  })
+
   $(window).on("scroll", function () {
     if ($(this).scrollTop() == 0) {
       $(".scroll-top").hide(0);
