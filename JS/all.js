@@ -15,7 +15,6 @@ $(function () {
   
   // scroll to top effect
   $(".scroll-top").on("click", function () {
-    console.log("click");
     // $('html, body').scrollTop(0);
     $("html, body").animate({ scrollTop: 0 }, 1500);
   });
