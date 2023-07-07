@@ -6,6 +6,7 @@ $(function () {
 
   // animatedModal.js
   $("#demo01").animatedModal({modalTarget:'modal-01'});
+  $("#demo02").animatedModal({modalTarget:'modal-02'});
 
   // Hamburger menu
   $('.showmenu').on('click',  function(e){
